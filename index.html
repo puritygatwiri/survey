@@ -35,34 +35,38 @@
       </nav>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-
         <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="fa fa-bars text-primary"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto">
-              <a href="/" class="nav-item nav-link active">Home</a>
-              
-              <div class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-                  <div class="dropdown-menu bg-light">
-                      <a href="about" class="dropdown-item">Management</a>
-                    
-
-                  </div>
-              </div>
-              <a href="services" class="nav-item nav-link">Services</a>
-              <a href="#blog" class="nav-item nav-link">Blog</a>
-              <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-             
-              <a href="contact" class="nav-item nav-link">Contact Us</a>
-          </div>
-          
-          <a href="projects" class="btn py-2 px-4 d-none d-xl-inline-block rounded-pill animate__animated animate__bounceIn" style="background: rgb(241, 4, 4)">Get Started</a>
-          <div class="vertical-line"></div>
-          
-      </div>
-  </nav>
+            <span class="fa fa-bars text-primary"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <div class="dropdown-menu bg-light">
+                        <a href="about" class="dropdown-item">Management</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <a href="projects" class="btn py-2 px-4 d-none d-xl-inline-block rounded-pill animate__animated animate__bounceIn" style="background: rgb(241, 4, 4)">Get Started</a>
+            <div class="vertical-line d-none d-lg-block"></div>
+        </div>
+    </nav>
+    
 
     </nav>
     <!-- End of Navbar -->
@@ -70,18 +74,6 @@
   <!-- Background Section -->
   <section style="background: transparent; position: relative;">
     <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel" style="width: 100%;">
-      <!-- Navigation Arrows -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"
-        style="left: 0; z-index: 1;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"
-        style="right: 0; z-index: 1;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-
       <!-- Carousel Indicators -->
       <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
@@ -94,7 +86,7 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="image/survey.jpg" class="d-block w-100" alt="Slide 1" style="position: relative; height: 100vh;">
+          <img src="image/survey.jpg" class="d-block w-100" alt="Slide 1" style="height: auto; max-height: 100vh; width: 100%; object-fit: cover;">
           <div class="overlay"></div>
           <div class="carousel-caption animate__ wow animate__bounceInRight"
             style="top: 40%; visibility: visible; animation-name: bounceInRight;">
@@ -106,7 +98,7 @@
         </div>
         <div class="carousel-item">
           <img src="image/portfolio/land1.jpg" class="d-block w-100" alt="Slide 2"
-            style="position: relative; height: 100vh;">
+            style="height: auto; max-height: 100vh; width: 100%; object-fit: cover;">
           <div class="overlay"></div>
           <div class="carousel-caption animate__ wow animate__bounceInRight"
             style="top: 40%; visibility: visible; animation-name: bounceInRight;">
@@ -118,7 +110,7 @@
         </div>
         <div class="carousel-item">
           <img src="image/portfolio/land2.jpg" class="d-block w-100" alt="Slide 3"
-            style="position: relative; height: 100vh;">
+            style="height: auto; max-height: 100vh; width: 100%; object-fit: cover;">
           <div class="overlay"></div>
           <div class="carousel-caption animate__ wow animate__bounceInRight"
             style="top: 40%; visibility: visible; animation-name: bounceInRight;">
