@@ -37,38 +37,37 @@
             </a>
         </nav>
         <!-- Navbar -->
-        <nav class="navbar bg-body-tertiary nav justify-content-end">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#about-us" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#management">Management</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars text-primary"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                        <div class="dropdown-menu bg-light">
+                            <a href="about" class="dropdown-item">Management</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                <a href="projects" class="btn py-2 px-4 d-none d-xl-inline-block rounded-pill animate__animated animate__bounceIn" style="background: rgb(241, 4, 4)">Get Started</a>
+                <div class="vertical-line d-none d-lg-block"></div>
+            </div>
         </nav>
     </nav>
 
@@ -200,55 +199,26 @@
                     </ul>
                 </div>
                 <div class="flex-1">
-                    <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-                    <ul class="list-reset mb-6">
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Terms</a>
-                        </li>
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex-1">
                     <p class="uppercase text-gray-500 md:mb-6">Find us</p>
                     <ul class="list-reset mb-6">
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="https://facebook.com/your_facebook_account">
-                                <svg class="h-8 w-8 text-blue-500 hover:text-white" width="24" height="24"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" />
-                                    <path
-                                        d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="https://www.linkedin.com/in/your_linkedin_profile">
-                                <svg class="h-8 w-8 text-blue-500 hover:text-white" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                                    <rect x="2" y="9" width="4" height="12" />
-                                    <circle cx="4" cy="4" r="2" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="https://twitter.com/your_twitter_handle">
-                                <svg class="h-8 w-8 text-blue-500 hover:text-white" width="24" height="24"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" />
-                                    <path
-                                        d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497-3.753C20.18 7.773 21.692 5.25 22 4.009z" />
-                                </svg>
-                            </a>
-                        </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="https://facebook.com/your_facebook_account" class="text-blue-500 hover:text-white">
+                          <i class="bi bi-facebook h-8 w-8"></i>
+                        </a>
+                      </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="https://www.linkedin.com/in/your_linkedin_profile" class="text-blue-500 hover:text-white">
+                          <i class="bi bi-linkedin h-8 w-8"></i>
+                        </a>
+                      </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="https://twitter.com/your_twitter_handle" class="text-blue-500 hover:text-white">
+                          <i class="bi bi-twitter h-8 w-8"></i>
+                        </a>
+                      </li>
                     </ul>
-                </div>
+          
+                  </div>
                 <div class="flex-1">
                     <p class="uppercase text-gray-500 md:mb-6">Company</p>
                     <ul class="list-reset mb-6">
